@@ -162,6 +162,7 @@ section {
 .btn:hover {
   transform: scale(1.05);
   box-shadow: 0 0 50px var(--main-color);
+  color: var(--text-color);
 }
 .btn-group {
   display: flex;
@@ -177,5 +178,5 @@ section {
 .btn-group a:nth-of-type(2):hover {
   box-shadow: 0 0 25px var(--main-color);
   background-color: var(--main-color);
-  color: black;
+  color: white;
 }
